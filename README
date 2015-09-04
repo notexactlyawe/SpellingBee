@@ -1,0 +1,3 @@
+This was an AS project in 2014 for WJEC Computing. Hopefully at some point I will take a look at cleaning it up.
+
+One thing that may be of interest is spellbee.db which contains every word/definition off of Wiktionary parsed and placed in a nice SQLite3 DB.
