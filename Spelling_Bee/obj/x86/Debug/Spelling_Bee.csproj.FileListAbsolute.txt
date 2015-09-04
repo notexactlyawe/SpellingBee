@@ -1,0 +1,203 @@
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csprojResolveAssemblyReference.cache
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csproj.GenerateResource.Cache
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+N:\VS2010\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+N:\VS2010\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+N:\VS2010\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+N:\VS2010\Spelling_Bee\Spelling_Bee\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\VS2010\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+N:\VS2010\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+N:\VS2010\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+N:\VS2010\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\VS2010\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\VS2010\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+N:\VS2010\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+N:\VS2010\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+N:\VS2010\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csprojResolveAssemblyReference.cache
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csproj.GenerateResource.Cache
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Spelling_Bee05110751\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csproj.GenerateResource.Cache
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csprojResolveAssemblyReference.cache
+C:\Users\cmacl_000\Documents\Visual Studio 2012\Projects\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formMngWords.resources
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formMngWords.resources
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\VS2010\Spelling_Bee12110821\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formMngWords.resources
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Spelling_Bee14111613\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.write.1.tlog
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csprojResolveAssemblyReference.cache
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formMngWords.resources
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+K:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csproj.GenerateResource.Cache
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csprojResolveAssemblyReference.cache
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formMngWords.resources
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+J:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csproj.GenerateResource.Cache
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csprojResolveAssemblyReference.cache
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formMngWords.resources
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+G:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csproj.GenerateResource.Cache
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csproj.GenerateResource.Cache
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csprojResolveAssemblyReference.cache
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csprojResolveAssemblyReference.cache
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formWordAdd.resources
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+F:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csproj.GenerateResource.Cache
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formWordAdd.resources
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.exe
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.pdb
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.pdb
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\System.Data.SQLite.dll
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csprojResolveAssemblyReference.cache
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formTestAdd.resources
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formWordAdd.resources
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Login.resources
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Properties.Resources.resources
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Student.resources
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.Teacher.resources
+G:\USBNew\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.csproj.GenerateResource.Cache
+C:\Users\cmacl_000\Desktop\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\obj\x86\Debug\Spelling_Bee.formWordAdd.resources

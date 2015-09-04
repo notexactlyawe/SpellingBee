@@ -1,0 +1,10 @@
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\bin\Debug\TestSpelling_Bee.dll
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\bin\Debug\TestSpelling_Bee.pdb
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\bin\Debug\Spelling_Bee.exe
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\bin\Debug\System.Data.SQLite.dll
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\bin\Debug\Spelling_Bee.pdb
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\bin\Debug\Spelling_Bee_Accessor.exe
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\bin\Debug\Spelling_Bee_Accessor.pdb
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\obj\Debug\ResolveAssemblyReference.cache
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\obj\Debug\TestSpelling_Bee.dll
+E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\obj\Debug\TestSpelling_Bee.pdb

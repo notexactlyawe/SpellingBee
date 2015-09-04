@@ -1,0 +1,1341 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3648a570-1419-4f54-9259-be36976fd82a" name="135019@COMPUTING034 2014-03-21 10:38:22" runUser="SSFCCOMPUTING\135019" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f4faf258-c7e6-47b7-a71f-c1881c0f72cd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="135019_COMPUTING034 2014-03-21 10_38_22">
+      <DeploymentItem filename="E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\System.Data.SQLite.dll" />
+      <DeploymentItem filename="E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\bin\Debug\Spelling_Bee.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-03-21T10:38:22.0125880+00:00" queuing="2014-03-21T10:38:23.9978025+00:00" start="2014-03-21T10:38:24.2321610+00:00" finish="2014-03-21T10:38:37.2244193+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="72" executed="72" error="0" failed="50" timeout="0" aborted="0" inconclusive="22" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="COMPUTING034" outcome="Warning" timestamp="2014-03-21T10:38:23.3572226+00:00">
+        <Text>Deployment is currently disabled. The deployment item 'Spelling_Bee.exe' on test 'TestSpelling_Bee.StudentTest.SpeakTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SpeakTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="b90be46f-ef8a-16be-e531-6b856daa46be">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="758d5f19-a805-419e-b46b-36d24a008d9d" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SpeakTest" />
+    </UnitTest>
+    <UnitTest name="btnOK_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="91fca073-99ce-eb28-9697-57e966e72a12">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="e13bf300-4317-40a5-93ea-665a1ca9ca01" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formWordAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnOK_ClickTest" />
+    </UnitTest>
+    <UnitTest name="AccountControlConstructorTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="7ac8f5ba-7c49-a4c0-7d4e-723b35cf6440">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="73978d8b-0a58-4429-aa9c-1a1f00601ff5" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.AccountControlTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AccountControlConstructorTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="d12d0a1b-5d5a-8c24-833a-2ea0d0c4d283">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="b9499e8f-4e3b-4eea-b2cb-e4a99f18be78" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="GetDataTableTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="5ac0b086-df78-f2d7-3d6c-4d5f3914ce3f">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="b2d0af4f-b4c4-4154-b2f0-31887ed6e201" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.SQLiteDatabaseTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetDataTableTest" />
+    </UnitTest>
+    <UnitTest name="btnDelTest_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="0fd09601-58bc-d8a0-75d9-189f530f79af">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="4394547a-057a-49f3-9210-bdc869d598c0" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnDelTest_ClickTest" />
+    </UnitTest>
+    <UnitTest name="levDistanceTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="6a33604b-a752-3d60-6b36-0936daf89ab6">
+      <Execution id="80976d9f-6ab0-4b28-a732-254e6c879138" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="levDistanceTest" />
+    </UnitTest>
+    <UnitTest name="Teacher_FormClosingTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="e30cf42c-feca-de2f-05de-e852ae498df8">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="43a27e1f-820a-4913-b549-eccf8b777828" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Teacher_FormClosingTest" />
+    </UnitTest>
+    <UnitTest name="deleteTestTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="140f7fdd-bbe3-35cf-f679-678db872bc3a">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="e80763bd-4a42-472e-a87b-352a76a23109" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deleteTestTest" />
+    </UnitTest>
+    <UnitTest name="btnExport_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="3f2c5af1-256f-1b7f-0cfb-62a5ea627f93">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="b11fb497-b57c-4af9-a5e0-3f40d846fa88" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnExport_ClickTest" />
+    </UnitTest>
+    <UnitTest name="formTestAddConstructorTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="15b71840-2e77-51dd-9c2e-276c2847b2d6">
+      <Execution id="418009ef-d867-4922-b15c-ff08c9f4baa3" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="formTestAddConstructorTest" />
+    </UnitTest>
+    <UnitTest name="deleteAccountTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="4749d44f-5535-4204-6cc9-a5baaff0bc41">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="16e9f783-ad44-467f-a757-368a9e11b4d8" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.AccountControlTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="deleteAccountTest" />
+    </UnitTest>
+    <UnitTest name="ExecuteScalarTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="f0a0242b-55bb-4190-b3ff-83d9358d4a92">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="ceb5a51d-eff0-4ba1-bc44-bd90dedb00d6" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.SQLiteDatabaseTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteScalarTest" />
+    </UnitTest>
+    <UnitTest name="SQLiteDatabaseConstructorTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="869f2486-3932-d2b8-71b2-95a23359029f">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="928ec4d6-3a5f-4f3d-9c46-98f36d5a530a" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.SQLiteDatabaseTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SQLiteDatabaseConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CultureTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="81d4875c-29a2-fcbf-d197-c6f906b639d0">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="b2b5dbe0-8305-47bd-b68b-f9ac913d227d" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.ResourcesTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CultureTest" />
+    </UnitTest>
+    <UnitTest name="ResourceManagerTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="1116bb32-d5f7-811e-d4eb-42c600e3c57b">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="cacf200c-1d70-41aa-a3ad-d3a2a81ac489" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.ResourcesTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResourceManagerTest" />
+    </UnitTest>
+    <UnitTest name="lstResults_SelectedIndexChangedTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="838f418f-67e9-e8ee-6280-62ea5b61d117">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="06052003-478f-4f09-a2b4-08ce4c4d086a" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="lstResults_SelectedIndexChangedTest" />
+    </UnitTest>
+    <UnitTest name="btnSave_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="9faac2e8-f564-1b35-7b40-a6671778a92d">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="1225055d-1fc8-4d53-9621-985b09b153ad" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnSave_ClickTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="00cfd566-712b-0945-f486-19dd76291aa3">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="6e320ddb-8bbc-4cda-9a2a-8d4cbc1d3978" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="btnAdd_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="8db11f44-15fb-4a88-24a2-b3b58b61d354">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="8f99b1d9-20b6-4227-bfbc-d25775ba9c36" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnAdd_ClickTest" />
+    </UnitTest>
+    <UnitTest name="MainTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="cc08cb63-a019-3cdd-fa9b-f1999955c70f">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="1c205ed8-a5a0-46b7-9141-a78e97e8ed1e" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.ProgramTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainTest" />
+    </UnitTest>
+    <UnitTest name="Teacher_LoadTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="15ea9791-2f74-0916-7432-3b1b4e817643">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="80e0eb45-d67a-410a-850a-0b7e9a310561" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Teacher_LoadTest" />
+    </UnitTest>
+    <UnitTest name="btnRand_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="4b5868aa-4be4-a788-8e21-819b93c1f6c9">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="54ef2444-e571-4c72-a7ea-05c5cda55589" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnRand_ClickTest" />
+    </UnitTest>
+    <UnitTest name="ExecuteNonQueryTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="812d4b39-792b-1e55-02b1-4757a6e4f097">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="216e2d6c-7da2-46ca-87d6-40b05aa3e394" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.SQLiteDatabaseTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExecuteNonQueryTest" />
+    </UnitTest>
+    <UnitTest name="UpdateFormTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="43c11829-cea0-36d0-48fa-945354fe9877">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="0539127c-2c55-419a-8826-3d7d5ea63614" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateFormTest" />
+    </UnitTest>
+    <UnitTest name="Student_FormClosingTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="df122d6a-dac3-5ff1-7e58-42bba44035a2">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="ee5de7d9-13d0-4221-8e7a-fc100e1fda6d" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Student_FormClosingTest" />
+    </UnitTest>
+    <UnitTest name="svTest_FileOkTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="971284f1-5558-4f71-1075-505db9c1e569">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="5204d365-cd9a-4739-9f38-8fa529c41657" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="svTest_FileOkTest" />
+    </UnitTest>
+    <UnitTest name="formWordAddConstructorTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="cca1a892-5dd3-192a-1201-1385b178da58">
+      <Execution id="f0a16671-1e92-48b6-bfb8-3dec63a107b2" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formWordAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="formWordAddConstructorTest" />
+    </UnitTest>
+    <UnitTest name="btnLeft_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="e5876c0f-fb61-3ca1-a292-56bdb7a12fb7">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="6e7d14a9-76c8-4797-9301-f9d73cf0dc8a" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnLeft_ClickTest" />
+    </UnitTest>
+    <UnitTest name="LoginConstructorTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="242e084e-8da7-c6d1-4edd-828d8abd7d7b">
+      <Execution id="9a802150-f4e1-4f06-a405-a927b6152426" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.LoginTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoginConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ResourcesConstructorTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="7c5673b2-62bc-f0e4-bfea-4a5eb679b1c0">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="4daa5fc2-d6ce-4e4e-8a5f-b00ee7e0a4d9" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.ResourcesTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResourcesConstructorTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="c439ff6c-8f0d-1f4b-9cd0-b4dd9e317cc0">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="a5da41f0-6060-43a3-8c56-cca305e3a718" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="0619cf3e-bddd-fd50-4462-0c81298858df">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="26a1ddc9-5b71-4aab-b301-7a03f83fb78b" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.LoginTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="addStudentTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="ec1f537c-6623-fb67-4348-8e24c8a269ec">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="3e0e4c6c-9aee-4570-9567-16ad01be2f0e" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.AccountControlTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="addStudentTest" />
+    </UnitTest>
+    <UnitTest name="spellingTestList_NodeMouseClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="89b398a1-4ca0-c19a-4c01-541307340032">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="a5c0d7ab-022e-4a9a-89a5-b8fe7426b604" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="spellingTestList_NodeMouseClickTest" />
+    </UnitTest>
+    <UnitTest name="testDisplay_SelectedIndexChangedTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="d1fd52b8-aecc-40bf-0de9-a4aed3520b77">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="bdf41d4e-1c90-422c-bad2-9773c727f0d2" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testDisplay_SelectedIndexChangedTest" />
+    </UnitTest>
+    <UnitTest name="StudentConstructorTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="1a6aef8e-031e-a55f-63c6-ee6cc1189735">
+      <Execution id="1050bc2a-ee70-4179-8c81-e487d5d7430d" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StudentConstructorTest" />
+    </UnitTest>
+    <UnitTest name="btnLogin_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="1d415ae2-ab86-c084-c573-0a5004b919ad">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="5b5d4680-a218-45be-9b0c-c0b1f9a4ffda" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.LoginTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnLogin_ClickTest" />
+    </UnitTest>
+    <UnitTest name="btnAddTest_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="febccef6-81e4-0f07-0484-ed974fe29826">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="f946b284-068e-443a-bbaa-a9bf43431bee" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnAddTest_ClickTest" />
+    </UnitTest>
+    <UnitTest name="btnStudentAdd_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="61232b90-b5ba-39c5-fc55-524003cca915">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="de109599-463d-42d6-92b6-a06a24ba7138" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnStudentAdd_ClickTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="ac518886-3e8a-0ada-7345-8fb61b8669a3">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="8da8b3c8-a571-4e5f-9ab1-59a904d1b28a" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="btnRight_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="0fe570dc-e2a7-1dd9-83cc-377a80e7f274">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="1e326c1d-91ca-47f0-8b3e-0579901920bf" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnRight_ClickTest" />
+    </UnitTest>
+    <UnitTest name="getSpellTestsTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="558b6c88-ac00-4284-51f0-fc978f08ffae">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="61d331ce-5bb7-4774-90e6-a525b85e13e4" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getSpellTestsTest" />
+    </UnitTest>
+    <UnitTest name="PasswordConstructorTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="47e43f14-63f0-8de1-e89b-98639d8d0f7e">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="6aa118ec-aa9f-4183-9eec-e3dfb804571d" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.PasswordTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PasswordConstructorTest" />
+    </UnitTest>
+    <UnitTest name="btnResetPass_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="4384986f-85d5-2d63-53dc-27252ff6c4e1">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="f8bddf56-907c-4748-88fa-cb816e2adccb" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnResetPass_ClickTest" />
+    </UnitTest>
+    <UnitTest name="txtDesc_KeyDownTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="cafa7c67-55c5-8100-6a0a-1b504786c954">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="ba6a60be-9334-4f1a-8c5e-1a1346dad2a1" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtDesc_KeyDownTest" />
+    </UnitTest>
+    <UnitTest name="lstTest_SelectedIndexChangedTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="eecdc072-4491-c1e8-b86e-8912bb47b10d">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="160d3d63-49c2-4e81-a0a8-3df69ab26279" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="lstTest_SelectedIndexChangedTest" />
+    </UnitTest>
+    <UnitTest name="checkAccountTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="16450e6f-0da3-7957-f524-5151474652dd">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="6332e866-20a3-4bfc-94a4-e58cd2db8b3a" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.AccountControlTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkAccountTest" />
+    </UnitTest>
+    <UnitTest name="btnDelStudent_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="256450f0-feac-f188-b13c-1b2d0ac894bd">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="04872742-97bb-49f6-89e1-1296a90ffd5e" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnDelStudent_ClickTest" />
+    </UnitTest>
+    <UnitTest name="btnSubmit_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="dd4e65b8-f740-dfd7-c324-548e47ba84b9">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="8798d748-85c1-46fa-941b-d4fe04da8606" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnSubmit_ClickTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="73d93b19-6fd6-f759-7495-94e0591e12f2">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="09c2f06c-5096-4561-b58a-29fecc2ac4e7" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formWordAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="btnDelete_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="495e4d36-b0ec-3a06-2a77-fd444ab8bf02">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="921fe202-f2f3-4fcc-aa22-8fe359709a90" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnDelete_ClickTest" />
+    </UnitTest>
+    <UnitTest name="DefaultTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="1f4897fd-5d38-b126-4512-bcc74c1c8450">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="3a012822-310d-4d35-80b7-aaefe4079eb8" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.SettingsTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DefaultTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="79842d2b-1941-1a61-f5f9-c68429ba1e24">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="99da0707-c3f8-436b-b76d-e4ba6fb2b7f7" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="hashAsStringTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="bb18b780-8e4c-c05b-dcfa-dc2a98163191">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="3cd2ec06-0f1d-4eb3-865e-b3d8b7a24c92" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.PasswordTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="hashAsStringTest" />
+    </UnitTest>
+    <UnitTest name="btnSpeakWord_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="60d51b0e-a671-2d8e-c8d6-00aaf70c082c">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="da8cd135-5565-47f6-b3c5-313912dbc133" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnSpeakWord_ClickTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="577106a0-7468-68b3-9040-f84df218f415">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="3d5af9db-fc59-4505-9be4-510661564c5c" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formWordAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="TeacherConstructorTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="8e0dc70c-8c40-d818-ac6d-f65fe03c1272">
+      <Execution id="a5cb3678-b33b-4dd7-b681-d58c3febd711" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TeacherConstructorTest" />
+    </UnitTest>
+    <UnitTest name="btnCancel_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="c9244478-294d-638d-72ce-322328107daf">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="3ced3960-ae3a-4ce7-a564-37f87d367baa" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formWordAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCancel_ClickTest" />
+    </UnitTest>
+    <UnitTest name="btnChangePassword_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="accaacea-aac9-beeb-b93d-9091f2ebb9d0">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="6499c661-24c1-4053-9204-a69cf3a2d170" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnChangePassword_ClickTest" />
+    </UnitTest>
+    <UnitTest name="txtSearch_KeyUpTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="76be301d-25c8-245a-6eb7-4f54d58562af">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="4aecd921-2af5-49f5-a9dd-4966da9dffa2" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="txtSearch_KeyUpTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="96831466-21b8-894b-ac84-de27c4cc3550">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="8f83a180-ac4a-407c-ae06-731fbcc17604" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.LoginTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="SettingsConstructorTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="1b9a459d-e188-cb47-6e91-f26f53ce6de3">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="fff8af8d-b02d-4530-87f0-0a4413259f20" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.SettingsTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SettingsConstructorTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="45371bff-d38d-71f6-d9c1-e319eb6a6146">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="a98cc4e6-d30e-4474-935d-bd03b90d0ae6" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="cmbWords_SelectedIndexChangedTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="bbf650e9-99c8-9ff7-1aa0-19e267b8e8fc">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="56aa2f13-3c0e-4516-aac0-2d04188335ed" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cmbWords_SelectedIndexChangedTest" />
+    </UnitTest>
+    <UnitTest name="Teacher_ActivatedTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="1a8567c6-bfb8-c368-75fd-403ac0414550">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="cccbb06e-3d4f-4cd8-a077-625f0ff03400" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Teacher_ActivatedTest" />
+    </UnitTest>
+    <UnitTest name="checkTake_CheckedChangedTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="80ded387-20b9-b114-97c9-70f2fe3f654a">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="0bde08dc-e40d-4377-b3fd-01bdf0ae9529" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkTake_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="Student_LoadTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="9d640178-d73a-b616-ddf5-f96b682b4879">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="44499ffd-a7d4-4d77-9f60-5b51a620cd82" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.StudentTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Student_LoadTest" />
+    </UnitTest>
+    <UnitTest name="studentDisplay_SelectedIndexChangedTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="a1695b38-650b-d61e-7abe-e96a7f06c705">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="618cbc5e-5997-4459-9ded-1a7c58443420" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.TeacherTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="studentDisplay_SelectedIndexChangedTest" />
+    </UnitTest>
+    <UnitTest name="btnWordAdd_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="3da5074f-3bab-9b12-0e54-3006eab65fbc">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="e7aa0e54-1ba2-46bc-a86b-b6e9c8c86561" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnWordAdd_ClickTest" />
+    </UnitTest>
+    <UnitTest name="lblDesc_DoubleClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="ab36ee08-2f3d-b030-9638-3e579a6b8e4a">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="8957ea85-d916-43d6-b66b-af1f6a0b2d2d" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="lblDesc_DoubleClickTest" />
+    </UnitTest>
+    <UnitTest name="btnClear_ClickTest" storage="e:\spelling_beecurrent\spelling_bee\spelling_bee\testspelling_bee\bin\debug\testspelling_bee.dll" id="f9adcd9f-6462-6e53-d418-62328c3dd177">
+      <DeploymentItems>
+        <DeploymentItem filename="Spelling_Bee.exe" />
+      </DeploymentItems>
+      <Execution id="6206aa0a-3571-4bbd-acd8-9bb06ffac204" />
+      <TestMethod codeBase="E:/Spelling_BeeCurrent/Spelling_Bee/Spelling_Bee/TestSpelling_Bee/bin/Debug/TestSpelling_Bee.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestSpelling_Bee.formTestAddTest, TestSpelling_Bee, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnClear_ClickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00cfd566-712b-0945-f486-19dd76291aa3" executionId="6e320ddb-8bbc-4cda-9a2a-8d4cbc1d3978" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0619cf3e-bddd-fd50-4462-0c81298858df" executionId="26a1ddc9-5b71-4aab-b301-7a03f83fb78b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fd09601-58bc-d8a0-75d9-189f530f79af" executionId="4394547a-057a-49f3-9210-bdc869d598c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fe570dc-e2a7-1dd9-83cc-377a80e7f274" executionId="1e326c1d-91ca-47f0-8b3e-0579901920bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1116bb32-d5f7-811e-d4eb-42c600e3c57b" executionId="cacf200c-1d70-41aa-a3ad-d3a2a81ac489" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="140f7fdd-bbe3-35cf-f679-678db872bc3a" executionId="e80763bd-4a42-472e-a87b-352a76a23109" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15b71840-2e77-51dd-9c2e-276c2847b2d6" executionId="418009ef-d867-4922-b15c-ff08c9f4baa3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15ea9791-2f74-0916-7432-3b1b4e817643" executionId="80e0eb45-d67a-410a-850a-0b7e9a310561" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16450e6f-0da3-7957-f524-5151474652dd" executionId="6332e866-20a3-4bfc-94a4-e58cd2db8b3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a6aef8e-031e-a55f-63c6-ee6cc1189735" executionId="1050bc2a-ee70-4179-8c81-e487d5d7430d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a8567c6-bfb8-c368-75fd-403ac0414550" executionId="cccbb06e-3d4f-4cd8-a077-625f0ff03400" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b9a459d-e188-cb47-6e91-f26f53ce6de3" executionId="fff8af8d-b02d-4530-87f0-0a4413259f20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d415ae2-ab86-c084-c573-0a5004b919ad" executionId="5b5d4680-a218-45be-9b0c-c0b1f9a4ffda" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f4897fd-5d38-b126-4512-bcc74c1c8450" executionId="3a012822-310d-4d35-80b7-aaefe4079eb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="242e084e-8da7-c6d1-4edd-828d8abd7d7b" executionId="9a802150-f4e1-4f06-a405-a927b6152426" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="256450f0-feac-f188-b13c-1b2d0ac894bd" executionId="04872742-97bb-49f6-89e1-1296a90ffd5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3da5074f-3bab-9b12-0e54-3006eab65fbc" executionId="e7aa0e54-1ba2-46bc-a86b-b6e9c8c86561" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f2c5af1-256f-1b7f-0cfb-62a5ea627f93" executionId="b11fb497-b57c-4af9-a5e0-3f40d846fa88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4384986f-85d5-2d63-53dc-27252ff6c4e1" executionId="f8bddf56-907c-4748-88fa-cb816e2adccb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43c11829-cea0-36d0-48fa-945354fe9877" executionId="0539127c-2c55-419a-8826-3d7d5ea63614" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45371bff-d38d-71f6-d9c1-e319eb6a6146" executionId="a98cc4e6-d30e-4474-935d-bd03b90d0ae6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4749d44f-5535-4204-6cc9-a5baaff0bc41" executionId="16e9f783-ad44-467f-a757-368a9e11b4d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47e43f14-63f0-8de1-e89b-98639d8d0f7e" executionId="6aa118ec-aa9f-4183-9eec-e3dfb804571d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="495e4d36-b0ec-3a06-2a77-fd444ab8bf02" executionId="921fe202-f2f3-4fcc-aa22-8fe359709a90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b5868aa-4be4-a788-8e21-819b93c1f6c9" executionId="54ef2444-e571-4c72-a7ea-05c5cda55589" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="558b6c88-ac00-4284-51f0-fc978f08ffae" executionId="61d331ce-5bb7-4774-90e6-a525b85e13e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="577106a0-7468-68b3-9040-f84df218f415" executionId="3d5af9db-fc59-4505-9be4-510661564c5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ac0b086-df78-f2d7-3d6c-4d5f3914ce3f" executionId="b2d0af4f-b4c4-4154-b2f0-31887ed6e201" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60d51b0e-a671-2d8e-c8d6-00aaf70c082c" executionId="da8cd135-5565-47f6-b3c5-313912dbc133" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61232b90-b5ba-39c5-fc55-524003cca915" executionId="de109599-463d-42d6-92b6-a06a24ba7138" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a33604b-a752-3d60-6b36-0936daf89ab6" executionId="80976d9f-6ab0-4b28-a732-254e6c879138" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73d93b19-6fd6-f759-7495-94e0591e12f2" executionId="09c2f06c-5096-4561-b58a-29fecc2ac4e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76be301d-25c8-245a-6eb7-4f54d58562af" executionId="4aecd921-2af5-49f5-a9dd-4966da9dffa2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79842d2b-1941-1a61-f5f9-c68429ba1e24" executionId="99da0707-c3f8-436b-b76d-e4ba6fb2b7f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ac8f5ba-7c49-a4c0-7d4e-723b35cf6440" executionId="73978d8b-0a58-4429-aa9c-1a1f00601ff5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c5673b2-62bc-f0e4-bfea-4a5eb679b1c0" executionId="4daa5fc2-d6ce-4e4e-8a5f-b00ee7e0a4d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80ded387-20b9-b114-97c9-70f2fe3f654a" executionId="0bde08dc-e40d-4377-b3fd-01bdf0ae9529" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="812d4b39-792b-1e55-02b1-4757a6e4f097" executionId="216e2d6c-7da2-46ca-87d6-40b05aa3e394" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81d4875c-29a2-fcbf-d197-c6f906b639d0" executionId="b2b5dbe0-8305-47bd-b68b-f9ac913d227d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="838f418f-67e9-e8ee-6280-62ea5b61d117" executionId="06052003-478f-4f09-a2b4-08ce4c4d086a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="869f2486-3932-d2b8-71b2-95a23359029f" executionId="928ec4d6-3a5f-4f3d-9c46-98f36d5a530a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89b398a1-4ca0-c19a-4c01-541307340032" executionId="a5c0d7ab-022e-4a9a-89a5-b8fe7426b604" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8db11f44-15fb-4a88-24a2-b3b58b61d354" executionId="8f99b1d9-20b6-4227-bfbc-d25775ba9c36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e0dc70c-8c40-d818-ac6d-f65fe03c1272" executionId="a5cb3678-b33b-4dd7-b681-d58c3febd711" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91fca073-99ce-eb28-9697-57e966e72a12" executionId="e13bf300-4317-40a5-93ea-665a1ca9ca01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96831466-21b8-894b-ac84-de27c4cc3550" executionId="8f83a180-ac4a-407c-ae06-731fbcc17604" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="971284f1-5558-4f71-1075-505db9c1e569" executionId="5204d365-cd9a-4739-9f38-8fa529c41657" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d640178-d73a-b616-ddf5-f96b682b4879" executionId="44499ffd-a7d4-4d77-9f60-5b51a620cd82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9faac2e8-f564-1b35-7b40-a6671778a92d" executionId="1225055d-1fc8-4d53-9621-985b09b153ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1695b38-650b-d61e-7abe-e96a7f06c705" executionId="618cbc5e-5997-4459-9ded-1a7c58443420" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab36ee08-2f3d-b030-9638-3e579a6b8e4a" executionId="8957ea85-d916-43d6-b66b-af1f6a0b2d2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac518886-3e8a-0ada-7345-8fb61b8669a3" executionId="8da8b3c8-a571-4e5f-9ab1-59a904d1b28a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="accaacea-aac9-beeb-b93d-9091f2ebb9d0" executionId="6499c661-24c1-4053-9204-a69cf3a2d170" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b90be46f-ef8a-16be-e531-6b856daa46be" executionId="758d5f19-a805-419e-b46b-36d24a008d9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb18b780-8e4c-c05b-dcfa-dc2a98163191" executionId="3cd2ec06-0f1d-4eb3-865e-b3d8b7a24c92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbf650e9-99c8-9ff7-1aa0-19e267b8e8fc" executionId="56aa2f13-3c0e-4516-aac0-2d04188335ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c439ff6c-8f0d-1f4b-9cd0-b4dd9e317cc0" executionId="a5da41f0-6060-43a3-8c56-cca305e3a718" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9244478-294d-638d-72ce-322328107daf" executionId="3ced3960-ae3a-4ce7-a564-37f87d367baa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cafa7c67-55c5-8100-6a0a-1b504786c954" executionId="ba6a60be-9334-4f1a-8c5e-1a1346dad2a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc08cb63-a019-3cdd-fa9b-f1999955c70f" executionId="1c205ed8-a5a0-46b7-9141-a78e97e8ed1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cca1a892-5dd3-192a-1201-1385b178da58" executionId="f0a16671-1e92-48b6-bfb8-3dec63a107b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d12d0a1b-5d5a-8c24-833a-2ea0d0c4d283" executionId="b9499e8f-4e3b-4eea-b2cb-e4a99f18be78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1fd52b8-aecc-40bf-0de9-a4aed3520b77" executionId="bdf41d4e-1c90-422c-bad2-9773c727f0d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd4e65b8-f740-dfd7-c324-548e47ba84b9" executionId="8798d748-85c1-46fa-941b-d4fe04da8606" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df122d6a-dac3-5ff1-7e58-42bba44035a2" executionId="ee5de7d9-13d0-4221-8e7a-fc100e1fda6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e30cf42c-feca-de2f-05de-e852ae498df8" executionId="43a27e1f-820a-4913-b549-eccf8b777828" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5876c0f-fb61-3ca1-a292-56bdb7a12fb7" executionId="6e7d14a9-76c8-4797-9301-f9d73cf0dc8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec1f537c-6623-fb67-4348-8e24c8a269ec" executionId="3e0e4c6c-9aee-4570-9567-16ad01be2f0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eecdc072-4491-c1e8-b86e-8912bb47b10d" executionId="160d3d63-49c2-4e81-a0a8-3df69ab26279" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0a0242b-55bb-4190-b3ff-83d9358d4a92" executionId="ceb5a51d-eff0-4ba1-bc44-bd90dedb00d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9adcd9f-6462-6e53-d418-62328c3dd177" executionId="6206aa0a-3571-4bbd-acd8-9bb06ffac204" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="febccef6-81e4-0f07-0484-ed974fe29826" executionId="f946b284-068e-443a-bbaa-a9bf43431bee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6e320ddb-8bbc-4cda-9a2a-8d4cbc1d3978" testId="00cfd566-712b-0945-f486-19dd76291aa3" testName="DisposeTest" computerName="COMPUTING034" duration="00:00:00.3574322" startTime="2014-03-21T10:38:24.4196478+00:00" endTime="2014-03-21T10:38:25.5758164+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e320ddb-8bbc-4cda-9a2a-8d4cbc1d3978">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.StudentTest.DisposeTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Student_Accessor.Dispose(Boolean disposing)
+   at TestSpelling_Bee.StudentTest.DisposeTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 89
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="26a1ddc9-5b71-4aab-b301-7a03f83fb78b" testId="0619cf3e-bddd-fd50-4462-0c81298858df" testName="InitializeComponentTest" computerName="COMPUTING034" duration="00:00:00.0618563" startTime="2014-03-21T10:38:25.6539359+00:00" endTime="2014-03-21T10:38:25.7320554+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26a1ddc9-5b71-4aab-b301-7a03f83fb78b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestSpelling_Bee.LoginTest.InitializeComponentTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\LoginTest.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4394547a-057a-49f3-9210-bdc869d598c0" testId="0fd09601-58bc-d8a0-75d9-189f530f79af" testName="btnDelTest_ClickTest" computerName="COMPUTING034" duration="00:00:00.0089963" startTime="2014-03-21T10:38:25.7789271+00:00" endTime="2014-03-21T10:38:25.8101749+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4394547a-057a-49f3-9210-bdc869d598c0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.btnDelTest_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.btnDelTest_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.btnDelTest_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 209
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1e326c1d-91ca-47f0-8b3e-0579901920bf" testId="0fe570dc-e2a7-1dd9-83cc-377a80e7f274" testName="btnRight_ClickTest" computerName="COMPUTING034" duration="00:00:00.0103513" startTime="2014-03-21T10:38:25.8570466+00:00" endTime="2014-03-21T10:38:25.8882944+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e326c1d-91ca-47f0-8b3e-0579901920bf">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.StudentTest.btnRight_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Student_Accessor.btnRight_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.StudentTest.btnRight_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 189
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cacf200c-1d70-41aa-a3ad-d3a2a81ac489" testId="1116bb32-d5f7-811e-d4eb-42c600e3c57b" testName="ResourceManagerTest" computerName="COMPUTING034" duration="00:00:00.0020442" startTime="2014-03-21T10:38:25.9351661+00:00" endTime="2014-03-21T10:38:25.9507900+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cacf200c-1d70-41aa-a3ad-d3a2a81ac489">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Private Accessor for Spelling_Bee.Properties.Resources is not found. Please rebuild the containing project or run the Publicize.exe manually.</Message>
+          <StackTrace>   at TestSpelling_Bee.ResourcesTest.ResourceManagerTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\ResourcesTest.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e80763bd-4a42-472e-a87b-352a76a23109" testId="140f7fdd-bbe3-35cf-f679-678db872bc3a" testName="deleteTestTest" computerName="COMPUTING034" duration="00:00:00.0060012" startTime="2014-03-21T10:38:26.0132856+00:00" endTime="2014-03-21T10:38:26.0289095+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e80763bd-4a42-472e-a87b-352a76a23109">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.deleteTestTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.deleteTest(Int32 number, String teachclass)
+   at TestSpelling_Bee.TeacherTest.deleteTestTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 301
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="418009ef-d867-4922-b15c-ff08c9f4baa3" testId="15b71840-2e77-51dd-9c2e-276c2847b2d6" testName="formTestAddConstructorTest" computerName="COMPUTING034" duration="00:00:00.0123304" startTime="2014-03-21T10:38:26.0757812+00:00" endTime="2014-03-21T10:38:26.1070290+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="418009ef-d867-4922-b15c-ff08c9f4baa3">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestSpelling_Bee.formTestAddTest.formTestAddConstructorTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="80e0eb45-d67a-410a-850a-0b7e9a310561" testId="15ea9791-2f74-0916-7432-3b1b4e817643" testName="Teacher_LoadTest" computerName="COMPUTING034" duration="00:00:00.0043476" startTime="2014-03-21T10:38:26.1695246+00:00" endTime="2014-03-21T10:38:26.1851485+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80e0eb45-d67a-410a-850a-0b7e9a310561">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.Teacher_LoadTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.Teacher_Load(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.Teacher_LoadTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 149
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6332e866-20a3-4bfc-94a4-e58cd2db8b3a" testId="16450e6f-0da3-7957-f524-5151474652dd" testName="checkAccountTest" computerName="COMPUTING034" duration="00:00:00.2141618" startTime="2014-03-21T10:38:26.2320202+00:00" endTime="2014-03-21T10:38:26.4663787+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6332e866-20a3-4bfc-94a4-e58cd2db8b3a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.AccountControlTest.checkAccountTest threw exception: 
+System.Data.SQLite.SQLiteException: unable to open database file</Message>
+          <StackTrace>   at Spelling_Bee.AccountControl_Accessor.checkAccount(Int32 id, String pass, String stuteach)
+   at TestSpelling_Bee.AccountControlTest.checkAccountTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\AccountControlTest.cs:line 104
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1050bc2a-ee70-4179-8c81-e487d5d7430d" testId="1a6aef8e-031e-a55f-63c6-ee6cc1189735" testName="StudentConstructorTest" computerName="COMPUTING034" duration="00:00:00.0133808" startTime="2014-03-21T10:38:26.5132504+00:00" endTime="2014-03-21T10:38:26.5444982+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1050bc2a-ee70-4179-8c81-e487d5d7430d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestSpelling_Bee.StudentTest.StudentConstructorTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cccbb06e-3d4f-4cd8-a077-625f0ff03400" testId="1a8567c6-bfb8-c368-75fd-403ac0414550" testName="Teacher_ActivatedTest" computerName="COMPUTING034" duration="00:00:00.0039097" startTime="2014-03-21T10:38:26.5913699+00:00" endTime="2014-03-21T10:38:26.6226177+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cccbb06e-3d4f-4cd8-a077-625f0ff03400">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.Teacher_ActivatedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.Teacher_Activated(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.Teacher_ActivatedTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 119
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fff8af8d-b02d-4530-87f0-0a4413259f20" testId="1b9a459d-e188-cb47-6e91-f26f53ce6de3" testName="SettingsConstructorTest" computerName="COMPUTING034" duration="00:00:00.0016240" startTime="2014-03-21T10:38:26.6694894+00:00" endTime="2014-03-21T10:38:26.6851133+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fff8af8d-b02d-4530-87f0-0a4413259f20">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Private Accessor for Spelling_Bee.Properties.Settings is not found. Please rebuild the containing project or run the Publicize.exe manually.</Message>
+          <StackTrace>   at TestSpelling_Bee.SettingsTest.SettingsConstructorTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\SettingsTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b5d4680-a218-45be-9b0c-c0b1f9a4ffda" testId="1d415ae2-ab86-c084-c573-0a5004b919ad" testName="btnLogin_ClickTest" computerName="COMPUTING034" duration="00:00:02.5013286" startTime="2014-03-21T10:38:26.7319850+00:00" endTime="2014-03-21T10:38:29.2562303+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b5d4680-a218-45be-9b0c-c0b1f9a4ffda">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestSpelling_Bee.LoginTest.btnLogin_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\LoginTest.cs:line 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a012822-310d-4d35-80b7-aaefe4079eb8" testId="1f4897fd-5d38-b126-4512-bcc74c1c8450" testName="DefaultTest" computerName="COMPUTING034" duration="00:00:00.0013722" startTime="2014-03-21T10:38:29.3343498+00:00" endTime="2014-03-21T10:38:29.3499737+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a012822-310d-4d35-80b7-aaefe4079eb8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Private Accessor for Spelling_Bee.Properties.Settings is not found. Please rebuild the containing project or run the Publicize.exe manually.</Message>
+          <StackTrace>   at TestSpelling_Bee.SettingsTest.DefaultTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\SettingsTest.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a802150-f4e1-4f06-a405-a927b6152426" testId="242e084e-8da7-c6d1-4edd-828d8abd7d7b" testName="LoginConstructorTest" computerName="COMPUTING034" duration="00:00:00.0037371" startTime="2014-03-21T10:38:29.4124693+00:00" endTime="2014-03-21T10:38:29.4280932+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a802150-f4e1-4f06-a405-a927b6152426">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestSpelling_Bee.LoginTest.LoginConstructorTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\LoginTest.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="04872742-97bb-49f6-89e1-1296a90ffd5e" testId="256450f0-feac-f188-b13c-1b2d0ac894bd" testName="btnDelStudent_ClickTest" computerName="COMPUTING034" duration="00:00:00.0037592" startTime="2014-03-21T10:38:29.4749649+00:00" endTime="2014-03-21T10:38:29.4905888+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04872742-97bb-49f6-89e1-1296a90ffd5e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.btnDelStudent_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.btnDelStudent_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.btnDelStudent_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 194
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e7aa0e54-1ba2-46bc-a86b-b6e9c8c86561" testId="3da5074f-3bab-9b12-0e54-3006eab65fbc" testName="btnWordAdd_ClickTest" computerName="COMPUTING034" duration="00:00:00.0055976" startTime="2014-03-21T10:38:29.5374605+00:00" endTime="2014-03-21T10:38:29.5530844+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7aa0e54-1ba2-46bc-a86b-b6e9c8c86561">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.btnWordAdd_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.btnWordAdd_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.formTestAddTest.btnWordAdd_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 192
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b11fb497-b57c-4af9-a5e0-3f40d846fa88" testId="3f2c5af1-256f-1b7f-0cfb-62a5ea627f93" testName="btnExport_ClickTest" computerName="COMPUTING034" duration="00:00:00.0053200" startTime="2014-03-21T10:38:29.6155800+00:00" endTime="2014-03-21T10:38:29.6312039+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b11fb497-b57c-4af9-a5e0-3f40d846fa88">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.btnExport_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.btnExport_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.btnExport_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 224
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f8bddf56-907c-4748-88fa-cb816e2adccb" testId="4384986f-85d5-2d63-53dc-27252ff6c4e1" testName="btnResetPass_ClickTest" computerName="COMPUTING034" duration="00:00:00.0045583" startTime="2014-03-21T10:38:29.6780756+00:00" endTime="2014-03-21T10:38:29.6936995+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8bddf56-907c-4748-88fa-cb816e2adccb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.btnResetPass_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.btnResetPass_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.btnResetPass_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 239
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0539127c-2c55-419a-8826-3d7d5ea63614" testId="43c11829-cea0-36d0-48fa-945354fe9877" testName="UpdateFormTest" computerName="COMPUTING034" duration="00:00:00.0043003" startTime="2014-03-21T10:38:29.7405712+00:00" endTime="2014-03-21T10:38:29.7718190+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0539127c-2c55-419a-8826-3d7d5ea63614">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.StudentTest.UpdateFormTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Student_Accessor.UpdateForm(Boolean right)
+   at TestSpelling_Bee.StudentTest.UpdateFormTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 159
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a98cc4e6-d30e-4474-935d-bd03b90d0ae6" testId="45371bff-d38d-71f6-d9c1-e319eb6a6146" testName="InitializeComponentTest" computerName="COMPUTING034" duration="00:00:00.0046640" startTime="2014-03-21T10:38:29.8186907+00:00" endTime="2014-03-21T10:38:29.8343146+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a98cc4e6-d30e-4474-935d-bd03b90d0ae6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.InitializeComponentTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.InitializeComponent()
+   at TestSpelling_Bee.TeacherTest.InitializeComponentTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 104
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="16e9f783-ad44-467f-a757-368a9e11b4d8" testId="4749d44f-5535-4204-6cc9-a5baaff0bc41" testName="deleteAccountTest" computerName="COMPUTING034" duration="00:00:00.0048231" startTime="2014-03-21T10:38:29.8968102+00:00" endTime="2014-03-21T10:38:29.9280580+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16e9f783-ad44-467f-a757-368a9e11b4d8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestSpelling_Bee.AccountControlTest.deleteAccountTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\AccountControlTest.cs:line 122
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6aa118ec-aa9f-4183-9eec-e3dfb804571d" testId="47e43f14-63f0-8de1-e89b-98639d8d0f7e" testName="PasswordConstructorTest" computerName="COMPUTING034" duration="00:00:00.0026928" startTime="2014-03-21T10:38:29.9749297+00:00" endTime="2014-03-21T10:38:29.9905536+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6aa118ec-aa9f-4183-9eec-e3dfb804571d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestSpelling_Bee.PasswordTest.PasswordConstructorTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\PasswordTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="921fe202-f2f3-4fcc-aa22-8fe359709a90" testId="495e4d36-b0ec-3a06-2a77-fd444ab8bf02" testName="btnDelete_ClickTest" computerName="COMPUTING034" duration="00:00:00.0045258" startTime="2014-03-21T10:38:30.0374253+00:00" endTime="2014-03-21T10:38:30.0530492+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="921fe202-f2f3-4fcc-aa22-8fe359709a90">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.btnDelete_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.btnDelete_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.formTestAddTest.btnDelete_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 147
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="54ef2444-e571-4c72-a7ea-05c5cda55589" testId="4b5868aa-4be4-a788-8e21-819b93c1f6c9" testName="btnRand_ClickTest" computerName="COMPUTING034" duration="00:00:00.0049668" startTime="2014-03-21T10:38:30.0999209+00:00" endTime="2014-03-21T10:38:30.1311687+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54ef2444-e571-4c72-a7ea-05c5cda55589">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.btnRand_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.btnRand_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.formTestAddTest.btnRand_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 162
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="61d331ce-5bb7-4774-90e6-a525b85e13e4" testId="558b6c88-ac00-4284-51f0-fc978f08ffae" testName="getSpellTestsTest" computerName="COMPUTING034" duration="00:00:00.0046664" startTime="2014-03-21T10:38:30.1780404+00:00" endTime="2014-03-21T10:38:30.1936643+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61d331ce-5bb7-4774-90e6-a525b85e13e4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.getSpellTestsTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.getSpellTests(String teachclass)
+   at TestSpelling_Bee.TeacherTest.getSpellTestsTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 318
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d5af9db-fc59-4505-9be4-510661564c5c" testId="577106a0-7468-68b3-9040-f84df218f415" testName="InitializeComponentTest" computerName="COMPUTING034" duration="00:00:00.0133433" startTime="2014-03-21T10:38:30.2405360+00:00" endTime="2014-03-21T10:38:30.2717838+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d5af9db-fc59-4505-9be4-510661564c5c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestSpelling_Bee.formWordAddTest.InitializeComponentTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formWordAddTest.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b2d0af4f-b4c4-4154-b2f0-31887ed6e201" testId="5ac0b086-df78-f2d7-3d6c-4d5f3914ce3f" testName="GetDataTableTest" computerName="COMPUTING034" duration="00:00:00.0171007" startTime="2014-03-21T10:38:30.3186555+00:00" endTime="2014-03-21T10:38:30.3499033+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2d0af4f-b4c4-4154-b2f0-31887ed6e201">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.SQLiteDatabaseTest.GetDataTableTest threw exception: 
+System.Exception: unable to open database file</Message>
+          <StackTrace>   at SQLiteDatabase_Accessor.GetDataTable(String sql)
+   at TestSpelling_Bee.SQLiteDatabaseTest.GetDataTableTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\SQLiteDatabaseTest.cs:line 121
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="da8cd135-5565-47f6-b3c5-313912dbc133" testId="60d51b0e-a671-2d8e-c8d6-00aaf70c082c" testName="btnSpeakWord_ClickTest" computerName="COMPUTING034" duration="00:00:00.0039072" startTime="2014-03-21T10:38:30.4123989+00:00" endTime="2014-03-21T10:38:30.4280228+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da8cd135-5565-47f6-b3c5-313912dbc133">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.StudentTest.btnSpeakWord_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Student_Accessor.btnSpeakWord_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.StudentTest.btnSpeakWord_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 204
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="de109599-463d-42d6-92b6-a06a24ba7138" testId="61232b90-b5ba-39c5-fc55-524003cca915" testName="btnStudentAdd_ClickTest" computerName="COMPUTING034" duration="00:00:00.0046523" startTime="2014-03-21T10:38:30.4748945+00:00" endTime="2014-03-21T10:38:30.5061423+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de109599-463d-42d6-92b6-a06a24ba7138">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.btnStudentAdd_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.btnStudentAdd_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.btnStudentAdd_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 254
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="80976d9f-6ab0-4b28-a732-254e6c879138" testId="6a33604b-a752-3d60-6b36-0936daf89ab6" testName="levDistanceTest" computerName="COMPUTING034" duration="00:00:00.0053875" startTime="2014-03-21T10:38:30.5530140+00:00" endTime="2014-03-21T10:38:30.5686379+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80976d9f-6ab0-4b28-a732-254e6c879138">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestSpelling_Bee.StudentTest.levDistanceTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 239
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="09c2f06c-5096-4561-b58a-29fecc2ac4e7" testId="73d93b19-6fd6-f759-7495-94e0591e12f2" testName="DisposeTest" computerName="COMPUTING034" duration="00:00:00.0046375" startTime="2014-03-21T10:38:30.6155096+00:00" endTime="2014-03-21T10:38:30.6311335+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09c2f06c-5096-4561-b58a-29fecc2ac4e7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestSpelling_Bee.formWordAddTest.DisposeTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formWordAddTest.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4aecd921-2af5-49f5-a9dd-4966da9dffa2" testId="76be301d-25c8-245a-6eb7-4f54d58562af" testName="txtSearch_KeyUpTest" computerName="COMPUTING034" duration="00:00:00.0047555" startTime="2014-03-21T10:38:30.6780052+00:00" endTime="2014-03-21T10:38:30.6936291+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4aecd921-2af5-49f5-a9dd-4966da9dffa2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.txtSearch_KeyUpTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.txtSearch_KeyUp(Object sender, KeyEventArgs e)
+   at TestSpelling_Bee.formTestAddTest.txtSearch_KeyUpTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 267
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="99da0707-c3f8-436b-b76d-e4ba6fb2b7f7" testId="79842d2b-1941-1a61-f5f9-c68429ba1e24" testName="InitializeComponentTest" computerName="COMPUTING034" duration="00:00:00.0034385" startTime="2014-03-21T10:38:30.7561247+00:00" endTime="2014-03-21T10:38:30.7717486+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99da0707-c3f8-436b-b76d-e4ba6fb2b7f7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.InitializeComponentTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.InitializeComponent()
+   at TestSpelling_Bee.formTestAddTest.InitializeComponentTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="73978d8b-0a58-4429-aa9c-1a1f00601ff5" testId="7ac8f5ba-7c49-a4c0-7d4e-723b35cf6440" testName="AccountControlConstructorTest" computerName="COMPUTING034" duration="00:00:00.0029858" startTime="2014-03-21T10:38:30.8186203+00:00" endTime="2014-03-21T10:38:30.8498681+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73978d8b-0a58-4429-aa9c-1a1f00601ff5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestSpelling_Bee.AccountControlTest.AccountControlConstructorTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\AccountControlTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4daa5fc2-d6ce-4e4e-8a5f-b00ee7e0a4d9" testId="7c5673b2-62bc-f0e4-bfea-4a5eb679b1c0" testName="ResourcesConstructorTest" computerName="COMPUTING034" duration="00:00:00.0013568" startTime="2014-03-21T10:38:30.9123637+00:00" endTime="2014-03-21T10:38:30.9279876+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4daa5fc2-d6ce-4e4e-8a5f-b00ee7e0a4d9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Private Accessor for Spelling_Bee.Properties.Resources is not found. Please rebuild the containing project or run the Publicize.exe manually.</Message>
+          <StackTrace>   at TestSpelling_Bee.ResourcesTest.ResourcesConstructorTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\ResourcesTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0bde08dc-e40d-4377-b3fd-01bdf0ae9529" testId="80ded387-20b9-b114-97c9-70f2fe3f654a" testName="checkTake_CheckedChangedTest" computerName="COMPUTING034" duration="00:00:00.0051289" startTime="2014-03-21T10:38:30.9748593+00:00" endTime="2014-03-21T10:38:30.9904832+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bde08dc-e40d-4377-b3fd-01bdf0ae9529">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.checkTake_CheckedChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.checkTake_CheckedChanged(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.checkTake_CheckedChangedTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 269
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="216e2d6c-7da2-46ca-87d6-40b05aa3e394" testId="812d4b39-792b-1e55-02b1-4757a6e4f097" testName="ExecuteNonQueryTest" computerName="COMPUTING034" duration="00:00:00.0138790" startTime="2014-03-21T10:38:31.0373549+00:00" endTime="2014-03-21T10:38:31.0686027+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="216e2d6c-7da2-46ca-87d6-40b05aa3e394">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.SQLiteDatabaseTest.ExecuteNonQueryTest threw exception: 
+System.Data.SQLite.SQLiteException: unable to open database file</Message>
+          <StackTrace>   at SQLiteDatabase_Accessor.ExecuteNonQuery(String sql)
+   at TestSpelling_Bee.SQLiteDatabaseTest.ExecuteNonQueryTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\SQLiteDatabaseTest.cs:line 89
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b2b5dbe0-8305-47bd-b68b-f9ac913d227d" testId="81d4875c-29a2-fcbf-d197-c6f906b639d0" testName="CultureTest" computerName="COMPUTING034" duration="00:00:00.0012199" startTime="2014-03-21T10:38:31.1154744+00:00" endTime="2014-03-21T10:38:31.1310983+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2b5dbe0-8305-47bd-b68b-f9ac913d227d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Private Accessor for Spelling_Bee.Properties.Resources is not found. Please rebuild the containing project or run the Publicize.exe manually.</Message>
+          <StackTrace>   at TestSpelling_Bee.ResourcesTest.CultureTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\ResourcesTest.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="06052003-478f-4f09-a2b4-08ce4c4d086a" testId="838f418f-67e9-e8ee-6280-62ea5b61d117" testName="lstResults_SelectedIndexChangedTest" computerName="COMPUTING034" duration="00:00:00.0048452" startTime="2014-03-21T10:38:31.1779700+00:00" endTime="2014-03-21T10:38:31.2092178+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06052003-478f-4f09-a2b4-08ce4c4d086a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.lstResults_SelectedIndexChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.lstResults_SelectedIndexChanged(Object sender, EventArgs e)
+   at TestSpelling_Bee.formTestAddTest.lstResults_SelectedIndexChangedTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 222
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="928ec4d6-3a5f-4f3d-9c46-98f36d5a530a" testId="869f2486-3932-d2b8-71b2-95a23359029f" testName="SQLiteDatabaseConstructorTest" computerName="COMPUTING034" duration="00:00:00.0014864" startTime="2014-03-21T10:38:31.2560895+00:00" endTime="2014-03-21T10:38:31.2717134+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="928ec4d6-3a5f-4f3d-9c46-98f36d5a530a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestSpelling_Bee.SQLiteDatabaseTest.SQLiteDatabaseConstructorTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\SQLiteDatabaseTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5c0d7ab-022e-4a9a-89a5-b8fe7426b604" testId="89b398a1-4ca0-c19a-4c01-541307340032" testName="spellingTestList_NodeMouseClickTest" computerName="COMPUTING034" duration="00:00:00.0050466" startTime="2014-03-21T10:38:31.3185851+00:00" endTime="2014-03-21T10:38:31.3342090+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5c0d7ab-022e-4a9a-89a5-b8fe7426b604">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.spellingTestList_NodeMouseClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.spellingTestList_NodeMouseClick(Object sender, TreeNodeMouseClickEventArgs e)
+   at TestSpelling_Bee.TeacherTest.spellingTestList_NodeMouseClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 334
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8f99b1d9-20b6-4227-bfbc-d25775ba9c36" testId="8db11f44-15fb-4a88-24a2-b3b58b61d354" testName="btnAdd_ClickTest" computerName="COMPUTING034" duration="00:00:00.0047690" startTime="2014-03-21T10:38:31.3967046+00:00" endTime="2014-03-21T10:38:31.4123285+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f99b1d9-20b6-4227-bfbc-d25775ba9c36">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.btnAdd_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.btnAdd_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.formTestAddTest.btnAdd_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 117
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5cb3678-b33b-4dd7-b681-d58c3febd711" testId="8e0dc70c-8c40-d818-ac6d-f65fe03c1272" testName="TeacherConstructorTest" computerName="COMPUTING034" duration="00:00:00.3360188" startTime="2014-03-21T10:38:31.4748241+00:00" endTime="2014-03-21T10:38:31.8185499+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5cb3678-b33b-4dd7-b681-d58c3febd711">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.TeacherConstructorTest threw exception: 
+System.Data.SQLite.SQLiteException: unable to open database file</Message>
+          <StackTrace>    at System.Data.SQLite.SQLite3.Open(String strFilename, SQLiteConnectionFlags connectionFlags, SQLiteOpenFlagsEnum openFlags, Int32 maxPoolSize, Boolean usePool)
+   at System.Data.SQLite.SQLiteConnection.Open()
+   at SQLiteDatabase.ExecuteScalar(String sql) in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\SQLiteDatabase.cs:line 67
+   at Spelling_Bee.Teacher..ctor(Int32 id) in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\Teacher.cs:line 26
+   at TestSpelling_Bee.TeacherTest.TeacherConstructorTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e13bf300-4317-40a5-93ea-665a1ca9ca01" testId="91fca073-99ce-eb28-9697-57e966e72a12" testName="btnOK_ClickTest" computerName="COMPUTING034" duration="00:00:00.0070608" startTime="2014-03-21T10:38:31.8654216+00:00" endTime="2014-03-21T10:38:31.8966694+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e13bf300-4317-40a5-93ea-665a1ca9ca01">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestSpelling_Bee.formWordAddTest.btnOK_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formWordAddTest.cs:line 127
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8f83a180-ac4a-407c-ae06-731fbcc17604" testId="96831466-21b8-894b-ac84-de27c4cc3550" testName="DisposeTest" computerName="COMPUTING034" duration="00:00:00.0069871" startTime="2014-03-21T10:38:31.9435411+00:00" endTime="2014-03-21T10:38:31.9591650+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f83a180-ac4a-407c-ae06-731fbcc17604">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestSpelling_Bee.LoginTest.DisposeTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\LoginTest.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5204d365-cd9a-4739-9f38-8fa529c41657" testId="971284f1-5558-4f71-1075-505db9c1e569" testName="svTest_FileOkTest" computerName="COMPUTING034" duration="00:00:00.0051197" startTime="2014-03-21T10:38:32.0060367+00:00" endTime="2014-03-21T10:38:32.0372845+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5204d365-cd9a-4739-9f38-8fa529c41657">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.svTest_FileOkTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.svTest_FileOk(Object sender, CancelEventArgs e)
+   at TestSpelling_Bee.TeacherTest.svTest_FileOkTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 364
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="44499ffd-a7d4-4d77-9f60-5b51a620cd82" testId="9d640178-d73a-b616-ddf5-f96b682b4879" testName="Student_LoadTest" computerName="COMPUTING034" duration="00:00:00.0046885" startTime="2014-03-21T10:38:32.0841562+00:00" endTime="2014-03-21T10:38:32.1154040+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44499ffd-a7d4-4d77-9f60-5b51a620cd82">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.StudentTest.Student_LoadTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Student_Accessor.Student_Load(Object sender, EventArgs e)
+   at TestSpelling_Bee.StudentTest.Student_LoadTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 145
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1225055d-1fc8-4d53-9621-985b09b153ad" testId="9faac2e8-f564-1b35-7b40-a6671778a92d" testName="btnSave_ClickTest" computerName="COMPUTING034" duration="00:00:00.0055301" startTime="2014-03-21T10:38:32.1622757+00:00" endTime="2014-03-21T10:38:32.1778996+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1225055d-1fc8-4d53-9621-985b09b153ad">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.btnSave_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.btnSave_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.formTestAddTest.btnSave_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 177
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="618cbc5e-5997-4459-9ded-1a7c58443420" testId="a1695b38-650b-d61e-7abe-e96a7f06c705" testName="studentDisplay_SelectedIndexChangedTest" computerName="COMPUTING034" duration="00:00:00.0037364" startTime="2014-03-21T10:38:32.2403952+00:00" endTime="2014-03-21T10:38:32.2716430+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="618cbc5e-5997-4459-9ded-1a7c58443420">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.studentDisplay_SelectedIndexChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.studentDisplay_SelectedIndexChanged(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.studentDisplay_SelectedIndexChangedTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 349
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8957ea85-d916-43d6-b66b-af1f6a0b2d2d" testId="ab36ee08-2f3d-b030-9638-3e579a6b8e4a" testName="lblDesc_DoubleClickTest" computerName="COMPUTING034" duration="00:00:00.0046308" startTime="2014-03-21T10:38:32.3185147+00:00" endTime="2014-03-21T10:38:32.3341386+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8957ea85-d916-43d6-b66b-af1f6a0b2d2d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.lblDesc_DoubleClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.lblDesc_DoubleClick(Object sender, EventArgs e)
+   at TestSpelling_Bee.formTestAddTest.lblDesc_DoubleClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 207
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8da8b3c8-a571-4e5f-9ab1-59a904d1b28a" testId="ac518886-3e8a-0ada-7345-8fb61b8669a3" testName="DisposeTest" computerName="COMPUTING034" duration="00:00:00.0043703" startTime="2014-03-21T10:38:32.3810103+00:00" endTime="2014-03-21T10:38:32.3966342+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8da8b3c8-a571-4e5f-9ab1-59a904d1b28a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.DisposeTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.Dispose(Boolean disposing)
+   at TestSpelling_Bee.formTestAddTest.DisposeTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 89
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6499c661-24c1-4053-9204-a69cf3a2d170" testId="accaacea-aac9-beeb-b93d-9091f2ebb9d0" testName="btnChangePassword_ClickTest" computerName="COMPUTING034" duration="00:00:00.0047340" startTime="2014-03-21T10:38:32.4591298+00:00" endTime="2014-03-21T10:38:32.4747537+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6499c661-24c1-4053-9204-a69cf3a2d170">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.btnChangePassword_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.btnChangePassword_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.btnChangePassword_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 179
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="758d5f19-a805-419e-b46b-36d24a008d9d" testId="b90be46f-ef8a-16be-e531-6b856daa46be" testName="SpeakTest" computerName="COMPUTING034" duration="00:00:00.0047831" startTime="2014-03-21T10:38:32.5216254+00:00" endTime="2014-03-21T10:38:32.5372493+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="758d5f19-a805-419e-b46b-36d24a008d9d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.StudentTest.SpeakTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Student_Accessor.Speak()
+   at TestSpelling_Bee.StudentTest.SpeakTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 115
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3cd2ec06-0f1d-4eb3-865e-b3d8b7a24c92" testId="bb18b780-8e4c-c05b-dcfa-dc2a98163191" testName="hashAsStringTest" computerName="COMPUTING034" duration="00:00:00.0070442" startTime="2014-03-21T10:38:32.5841210+00:00" endTime="2014-03-21T10:38:32.6153688+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cd2ec06-0f1d-4eb3-865e-b3d8b7a24c92">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;&gt;. Actual:&lt;227 176 196 66 152 252 28 20 154 251 244 200 153 111 185 36 39 174 65 228 100 155 147 76 164 149 153 27 120 82 184 85 &gt;. </Message>
+          <StackTrace>   at TestSpelling_Bee.PasswordTest.hashAsStringTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\PasswordTest.cs:line 89
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="56aa2f13-3c0e-4516-aac0-2d04188335ed" testId="bbf650e9-99c8-9ff7-1aa0-19e267b8e8fc" testName="cmbWords_SelectedIndexChangedTest" computerName="COMPUTING034" duration="00:00:00.0038734" startTime="2014-03-21T10:38:32.6622405+00:00" endTime="2014-03-21T10:38:32.6778644+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56aa2f13-3c0e-4516-aac0-2d04188335ed">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.cmbWords_SelectedIndexChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.cmbWords_SelectedIndexChanged(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.cmbWords_SelectedIndexChangedTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 284
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5da41f0-6060-43a3-8c56-cca305e3a718" testId="c439ff6c-8f0d-1f4b-9cd0-b4dd9e317cc0" testName="DisposeTest" computerName="COMPUTING034" duration="00:00:00.0043710" startTime="2014-03-21T10:38:32.7403600+00:00" endTime="2014-03-21T10:38:32.7559839+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5da41f0-6060-43a3-8c56-cca305e3a718">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.DisposeTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.Dispose(Boolean disposing)
+   at TestSpelling_Bee.TeacherTest.DisposeTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 91
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3ced3960-ae3a-4ce7-a564-37f87d367baa" testId="c9244478-294d-638d-72ce-322328107daf" testName="btnCancel_ClickTest" computerName="COMPUTING034" duration="00:00:00.0048980" startTime="2014-03-21T10:38:32.8028556+00:00" endTime="2014-03-21T10:38:32.8184795+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ced3960-ae3a-4ce7-a564-37f87d367baa">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestSpelling_Bee.formWordAddTest.btnCancel_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formWordAddTest.cs:line 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba6a60be-9334-4f1a-8c5e-1a1346dad2a1" testId="cafa7c67-55c5-8100-6a0a-1b504786c954" testName="txtDesc_KeyDownTest" computerName="COMPUTING034" duration="00:00:00.0042002" startTime="2014-03-21T10:38:32.8809751+00:00" endTime="2014-03-21T10:38:32.8965990+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba6a60be-9334-4f1a-8c5e-1a1346dad2a1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.txtDesc_KeyDownTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.txtDesc_KeyDown(Object sender, KeyEventArgs e)
+   at TestSpelling_Bee.formTestAddTest.txtDesc_KeyDownTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 252
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1c205ed8-a5a0-46b7-9141-a78e97e8ed1e" testId="cc08cb63-a019-3cdd-fa9b-f1999955c70f" testName="MainTest" computerName="COMPUTING034" duration="00:00:03.1616169" startTime="2014-03-21T10:38:32.9434707+00:00" endTime="2014-03-21T10:38:36.1151224+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c205ed8-a5a0-46b7-9141-a78e97e8ed1e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestSpelling_Bee.ProgramTest.MainTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\ProgramTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f0a16671-1e92-48b6-bfb8-3dec63a107b2" testId="cca1a892-5dd3-192a-1201-1385b178da58" testName="formWordAddConstructorTest" computerName="COMPUTING034" duration="00:00:00.0044588" startTime="2014-03-21T10:38:36.1776180+00:00" endTime="2014-03-21T10:38:36.2088658+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0a16671-1e92-48b6-bfb8-3dec63a107b2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestSpelling_Bee.formWordAddTest.formWordAddConstructorTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formWordAddTest.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b9499e8f-4e3b-4eea-b2cb-e4a99f18be78" testId="d12d0a1b-5d5a-8c24-833a-2ea0d0c4d283" testName="InitializeComponentTest" computerName="COMPUTING034" duration="00:00:00.0043722" startTime="2014-03-21T10:38:36.2557375+00:00" endTime="2014-03-21T10:38:36.2713614+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9499e8f-4e3b-4eea-b2cb-e4a99f18be78">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.StudentTest.InitializeComponentTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Student_Accessor.InitializeComponent()
+   at TestSpelling_Bee.StudentTest.InitializeComponentTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bdf41d4e-1c90-422c-bad2-9773c727f0d2" testId="d1fd52b8-aecc-40bf-0de9-a4aed3520b77" testName="testDisplay_SelectedIndexChangedTest" computerName="COMPUTING034" duration="00:00:00.0047979" startTime="2014-03-21T10:38:36.3182331+00:00" endTime="2014-03-21T10:38:36.3494809+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdf41d4e-1c90-422c-bad2-9773c727f0d2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.testDisplay_SelectedIndexChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.testDisplay_SelectedIndexChanged(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.testDisplay_SelectedIndexChangedTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 379
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8798d748-85c1-46fa-941b-d4fe04da8606" testId="dd4e65b8-f740-dfd7-c324-548e47ba84b9" testName="btnSubmit_ClickTest" computerName="COMPUTING034" duration="00:00:00.0044619" startTime="2014-03-21T10:38:36.4119765+00:00" endTime="2014-03-21T10:38:36.4276004+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8798d748-85c1-46fa-941b-d4fe04da8606">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.StudentTest.btnSubmit_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Student_Accessor.btnSubmit_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.StudentTest.btnSubmit_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 219
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ee5de7d9-13d0-4221-8e7a-fc100e1fda6d" testId="df122d6a-dac3-5ff1-7e58-42bba44035a2" testName="Student_FormClosingTest" computerName="COMPUTING034" duration="00:00:00.0047665" startTime="2014-03-21T10:38:36.4744721+00:00" endTime="2014-03-21T10:38:36.5057199+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee5de7d9-13d0-4221-8e7a-fc100e1fda6d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.StudentTest.Student_FormClosingTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Student_Accessor.Student_FormClosing(Object sender, FormClosingEventArgs e)
+   at TestSpelling_Bee.StudentTest.Student_FormClosingTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 130
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="43a27e1f-820a-4913-b549-eccf8b777828" testId="e30cf42c-feca-de2f-05de-e852ae498df8" testName="Teacher_FormClosingTest" computerName="COMPUTING034" duration="00:00:00.0047143" startTime="2014-03-21T10:38:36.5525916+00:00" endTime="2014-03-21T10:38:36.5682155+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43a27e1f-820a-4913-b549-eccf8b777828">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.Teacher_FormClosingTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.Teacher_FormClosing(Object sender, FormClosingEventArgs e)
+   at TestSpelling_Bee.TeacherTest.Teacher_FormClosingTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 134
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e7d14a9-76c8-4797-9301-f9d73cf0dc8a" testId="e5876c0f-fb61-3ca1-a292-56bdb7a12fb7" testName="btnLeft_ClickTest" computerName="COMPUTING034" duration="00:00:00.0046173" startTime="2014-03-21T10:38:36.6150872+00:00" endTime="2014-03-21T10:38:36.6463350+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e7d14a9-76c8-4797-9301-f9d73cf0dc8a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.StudentTest.btnLeft_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Student_Accessor.btnLeft_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.StudentTest.btnLeft_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\StudentTest.cs:line 174
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3e0e4c6c-9aee-4570-9567-16ad01be2f0e" testId="ec1f537c-6623-fb67-4348-8e24c8a269ec" testName="addStudentTest" computerName="COMPUTING034" duration="00:00:00.0151658" startTime="2014-03-21T10:38:36.6932067+00:00" endTime="2014-03-21T10:38:36.7244545+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e0e4c6c-9aee-4570-9567-16ad01be2f0e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.AccountControlTest.addStudentTest threw exception: 
+System.Data.SQLite.SQLiteException: unable to open database file</Message>
+          <StackTrace>   at Spelling_Bee.AccountControl_Accessor.addStudent(String name, String pass, String stuClass)
+   at TestSpelling_Bee.AccountControlTest.addStudentTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\AccountControlTest.cs:line 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="160d3d63-49c2-4e81-a0a8-3df69ab26279" testId="eecdc072-4491-c1e8-b86e-8912bb47b10d" testName="lstTest_SelectedIndexChangedTest" computerName="COMPUTING034" duration="00:00:00.0049508" startTime="2014-03-21T10:38:36.7713262+00:00" endTime="2014-03-21T10:38:36.7869501+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="160d3d63-49c2-4e81-a0a8-3df69ab26279">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.lstTest_SelectedIndexChangedTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.lstTest_SelectedIndexChanged(Object sender, EventArgs e)
+   at TestSpelling_Bee.formTestAddTest.lstTest_SelectedIndexChangedTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 237
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ceb5a51d-eff0-4ba1-bc44-bd90dedb00d6" testId="f0a0242b-55bb-4190-b3ff-83d9358d4a92" testName="ExecuteScalarTest" computerName="COMPUTING034" duration="00:00:00.0132303" startTime="2014-03-21T10:38:36.8650696+00:00" endTime="2014-03-21T10:38:36.8963174+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ceb5a51d-eff0-4ba1-bc44-bd90dedb00d6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.SQLiteDatabaseTest.ExecuteScalarTest threw exception: 
+System.Data.SQLite.SQLiteException: unable to open database file</Message>
+          <StackTrace>   at SQLiteDatabase_Accessor.ExecuteScalar(String sql)
+   at TestSpelling_Bee.SQLiteDatabaseTest.ExecuteScalarTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\SQLiteDatabaseTest.cs:line 105
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6206aa0a-3571-4bbd-acd8-9bb06ffac204" testId="f9adcd9f-6462-6e53-d418-62328c3dd177" testName="btnClear_ClickTest" computerName="COMPUTING034" duration="00:00:00.0125810" startTime="2014-03-21T10:38:36.9588130+00:00" endTime="2014-03-21T10:38:36.9900608+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6206aa0a-3571-4bbd-acd8-9bb06ffac204">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.formTestAddTest.btnClear_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.formTestAdd_Accessor.btnClear_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.formTestAddTest.btnClear_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\formTestAddTest.cs:line 132
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f946b284-068e-443a-bbaa-a9bf43431bee" testId="febccef6-81e4-0f07-0484-ed974fe29826" testName="btnAddTest_ClickTest" computerName="COMPUTING034" duration="00:00:00.0050110" startTime="2014-03-21T10:38:37.0369325+00:00" endTime="2014-03-21T10:38:37.0525564+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f946b284-068e-443a-bbaa-a9bf43431bee">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestSpelling_Bee.TeacherTest.btnAddTest_ClickTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at Spelling_Bee.Teacher_Accessor.btnAddTest_Click(Object sender, EventArgs e)
+   at TestSpelling_Bee.TeacherTest.btnAddTest_ClickTest() in E:\Spelling_BeeCurrent\Spelling_Bee\Spelling_Bee\TestSpelling_Bee\TeacherTest.cs:line 164
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

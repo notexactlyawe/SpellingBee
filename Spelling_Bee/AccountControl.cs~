@@ -1,0 +1,97 @@
+﻿using System;
+using System.Data;
+
+namespace Spelling_Bee
+{
+    class AccountControl
+    {
+        /// <summary>
+        ///     Adds a student to the system
+        /// </summary>
+        /// <param name="name">The student's full name</param>
+        /// <param name="pass">The student's password</param>
+        /// <param name="stuClass">The student's class</param>
+        public static void addStudent(string name, string pass, string stuClass)
+        {
+            /* The following varibales are
+             * db        - Instance of the SQLiteDatabase class
+             * hash      - The SHA-256 hash of the password to be added as a string
+             * added     - Used to avoid a bug with adding students if one has been deleted
+             * attempts  - See above
+             * studentID - The ID of the student to be added
+             */
+            SQLiteDatabase db = new SQLiteDatabase();
+            string hash       = Password.hashAsString(pass);
+            bool added        = false;
+            int attempts      = 0;
+            int studentID     = Convert.ToInt16(db.ExecuteScalar("SELECT id FROM students ORDER BY id DESC")) + 1;
+
+            // While the db call hasn't executed
+            while (!added)
+            {
+                try
+                {
+                    db.ExecuteNonQuery(string.Format("INSERT INTO students VALUES ({0}, \"{1}\", \"{2}\", \"{3}\");",
+                        studentID, name, stuClass, hash));
+                    added = true;
+                }
+                // Checks the number of attempts and if they're less than 10 it adds one to the studentID
+                catch
+                {
+                    if (attempts > 9)
+                    {
+                        throw new Exception("Timed out");
+                    }
+                    studentID++;
+                    attempts++;
+                }
+            }
+        }
+        
+        /// <summary>
+        ///     Allows deleting of student/teacher accounts
+        /// </summary>
+        /// <param name="id">The ID of the account to delete</param>
+        /// <param name="stuteach">A string containing either "students" or "teachers"</param>
+        /// <returns>1 if the delete was successful, 0 otherwise</returns>
+        public static int deleteAccount(int id, string stuteach)
+        {
+            // Validates input
+            if (stuteach.ToLower() == "students" || stuteach.ToLower() == "teachers")
+            {
+                try
+                {
+                    SQLiteDatabase db = new SQLiteDatabase();
+                    db.ExecuteNonQuery(string.Format(
+                        "DELETE FROM {0} WHERE id={1};", stuteach, id));
+                }
+                // Returns 0 if error, else returns 1
+                catch { return 0; }
+                return 1;
+            }
+            // This is if the input is invalid
+            return 0;
+        }
+
+        /// <summary>
+        ///     Checks whether a specified account exists and whether the password supplied
+        ///     is correct
+        /// </summary>
+        /// <param name="id">The ID of the student/teacher - Corresponds to the id field
+        /// in the DB</param>
+        /// <param name="pass">The password to check as a string</param>
+        /// <param name="stuteach">A string containing "students" or "teachers"</param>
+        /// <returns>true when account is correct, false otherwise</returns>
+        public static bool checkAccount(int id, string pass, string stuteach)
+        {
+            SQLiteDatabase db = new SQLiteDatabase();
+            string dbPass = db.ExecuteScalar(string.Format("SELECT hash FROM {0} WHERE id={1};", stuteach, id));
+            string passHash = Password.hashAsString(pass);
+
+            if (dbPass == passHash)
+                return true;
+
+            return false;
+        }
+    }
+}

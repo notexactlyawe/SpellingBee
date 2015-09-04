@@ -1,0 +1,31 @@
+CREATE TABLE scores(
+	pupilid INTEGER, 
+	number INT, 
+	score INTEGER, 
+	trouble TEXT, 
+	FOREIGN KEY(pupilid) REFERENCES students(id), 
+	FOREIGN KEY(number) REFERENCES tests(number), 
+	PRIMARY KEY(pupilid, nubmer));
+
+CREATE TABLE students(
+	id INTEGER PRIMARY KEY, 
+	name TEXT, 
+	class TEXT, 
+	hash TEXT);
+
+CREATE TABLE teachers(
+	id INTEGER PRIMARY KEY, 
+	name TEXT, 
+	class TEXT, 
+	hash TEXT);
+
+CREATE TABLE tests(
+	number INT, 
+	class TEXT, 
+	words TEXT,
+	take INT, 
+	PRIMARY KEY(number, class));
+
+CREATE TABLE words(
+	word TEXT PRIMARY KEY, 
+	desc TEXT);

@@ -1,0 +1,403 @@
+﻿/* Commit History */
+
+18/10/2013
+{
+	Changed hash field in [students, teachers] to a TEXT type instead of BLOB
+	Got login system working
+	Added UI for teacher student managements
+}
+
+24/10/2013
+{
+	Enabled user to hit return on password box to login
+	Fixed non-exit after student window closed
+	Added a wait cursor to login function
+	Removed db declaration from error else in login
+}
+
+25/10/2013
+{
+	Wiped database in preparation for decent test data
+	Added teacher data
+	Added a BUNCH of student data, all called John Broker, 167 of them
+	Fixed listbox displaying one class error
+	Cleaned up Teacher constructor, put whatever didn't need id in a load function
+	Added a student list on the Student Progress tab
+	Added placeholder spelling list error message on spelling list treeview
+}
+
+27/10/2013
+{
+	Added SpellTest.cs helper class intended to contain functions related to parsing etc
+	Added function getSpellTests that abstracts and contains fancy error handling
+}
+
+28/10/2013
+{
+	Added addTest method to SpellTest.cs
+	Made spellingTestList display weeks
+	Added a form formTestAdd to be displayed as a dialog that allows for test entry
+	Refactored addTest to accomodate new defintion of words field
+	Added error handling to addTest
+	Added private modifier to teachclass and made it an argument for formTestAdd constructor
+}
+
+29/10/2013
+{
+	Fixed formAddTest not closing on button click
+	Added messagebox to say test had been added successfully
+	Fixed single test display bug
+	Fixed TabIndex order on formTestAdd
+}
+
+07/11/2013
+{
+	Restructured db:
+		- Renamed words to tests
+		- Added words table (see schema)
+	Added an addWord function
+	Added a doubleclick function to the label (needs writing)
+}
+
+08/11/2013
+{
+	Added dbschema.txt to project
+	Abstracted addWord to SpellTest.cs for reusability
+}
+
+09/11/2013
+{
+	Made lstWords reflect changes and work
+	Renamed formTestAdd to formMngWords
+	Added getWords function to SpellTest
+	Connected lstWords and lblDesc
+}
+
+10/11/2013
+{
+	Implemented lblDoubleClick and performed minimal testing
+	Made lblDesc resize automatically on formMngWords
+	Fixed tabIndex on formMngWords
+	Implemented btnRmvWord on formMngWords
+	Made getTest return a string[] instead of string
+	Made btnStudentAdd work
+	Added error handling to deleteAccount
+	Added AccountControl.editPass method
+	Added btnDelStudent
+	Fixed btnStudentAdd crash when no class was selected
+}
+
+12/11/2013
+{
+	Added and designed formTestAdd
+	Got wordDisplay to display word list
+	Linked btnAddTest to formTestAdd
+	Made btnCancel work (this.Close() - yeah, really)
+}
+
+14/11/2013
+{
+	Changed word display to a listbox for easier selection retrieval
+	Found a serious double entry bug in formMngWords where it overwrites every desc
+}
+
+19/11/2013
+{
+	Fixed "No Word Selected" bug
+	Couldn't replicate double entry bug, must be fixed
+}
+
+21/11/2013
+{
+	Added formMngWords summary comments
+	Refactored db, changes include:
+		tests now has number INT instead of week TEXT
+		scores has been refactored to reflect the above
+		scores now has trouble as TEXT instead of a BLOB
+	Added addTest function, needs finishing
+	Added btnConfirm_Click, needs finishing
+}
+
+22/11/2013
+{
+	Finished btnConfirm_Click
+	Finished addTest
+}
+
+26/11/2013
+{
+	Fixed spellingTestList nodes
+	Fixed getSpellTests
+	Fixed getTest
+}
+
+28/11/2013
+{
+	Made main panel display list of words
+	Added wait cursor to formTestAdd.btnConfirm_Click
+	Added Teacher.btnDelTest
+}
+
+29/11/2013
+{
+	Wrote levenshtein function
+	Designed Student UX
+}
+
+5/12/2013
+{
+	Changed ExecuteScalar to throw MissingFieldException if no value found
+	Added Student_Load() function to grab test
+	Added column take to tests for the test to be taken
+}
+
+7/12/2013
+{
+	Re-added tests
+	Changed addTest to reflect new take usage
+}
+
+12/12/2013
+{
+	Rejigged nodeMouseClick to reflect something or other (it was on the to-do list)
+}
+
+13/12/2013
+{
+	Made take field display as a "\" in the tree thing on teacher
+	Replaced error message in Student_Load
+	Added the left and right buttons on student
+	Added updateForm function on student
+	Made student get descriptions and words
+	Added a struct takenTest to aid adding to database
+}
+
+20/12/2013
+{
+	Realised the way I'd written student didn't really allow for persistent words
+	Wrestled with it a bit
+	Got angry
+	Commented the entirety of Student (still needs summary comments)
+}
+
+30/12/2013
+{
+	Completed submit function on student
+	Realised it didn't work
+	Oh NullReferenceException, what causes thee?
+	Answers wasn't being initialised, fixed it
+	Student now saves a record to scores on submit
+	Fixed last word not being saved bug
+	Added chart control to teacher and related buttons
+}
+
+10/01/2014
+{
+	Added try/catch to score saving db call
+	Added error message ^
+	Added score feedback
+	Removed levenshtein.cs as was in student
+	Fixed upper/lower error in scoring, now case-insensitive
+}
+
+16/01/2014
+{
+	Added label on formTestAdd to say how many words are selected
+	Commented a lot of teacher
+	Made testDisplay display
+}
+
+17/01/2014
+{
+	Added labels to studentDisplay and testsDisplay
+	Added private DataTable students to Teacher to keep track of IDs for analysis
+	Fixed Foreign key error in scores
+	Got a rudimentary chart working, it has yet to update on selectedindex change
+}
+
+24/01/2014
+{
+	Got chart to update on student clickmajig
+	WE ARE TECHNICALLY TO SPEC
+	Got chart to update on test clickmajig
+	Removed enter button hack and added accept button on login
+}
+
+28/01/2014
+{
+	Fixed bug where clicking a node on spellingTestList wouldn't always select it
+	checkTake now reflects take, still doesn't update when clicked
+}
+
+31/01/2014
+{
+	Finished implementing checkTake
+	Finished design of student progress
+}
+
+06/02/2014
+{
+	Removed all plurals from the wiktionary parse
+	Removed all phrases from the wiktionary parse (in useless)
+	Removed words with no descriptions from wiktionary parse (in no_desc)
+}
+
+07/02/2014
+{
+	Removed all words with a full stop in (in useless)
+	Removed all words with an apostrophe in
+	Removed all words with * in 
+	Reomved all words with a hyphen in
+	Removed all words with any slash in
+	Removed all words with symbols (hopefully)
+	Altered DB schema to reflect words.db
+}
+
+13/02/2014
+{
+	Moved words from wiktionary into main db
+	Backed up dbs on desktop and uhsbay
+	Got search function on formTestAdd working
+	Excluded words.db from project
+	Removed getTest from SpellTest.cs, 'twas rather pointless
+	Removed addWord (see above)
+	Removed getWords (see above)
+	Removed two functions from password.cs as they were unused
+	Same as above except for AccountControl
+	Fixed bug where if you delete all tests in one session then one stays
+	Implemented save test
+	Got the count label working on formTestAdd
+	Implemented random test
+}
+
+14/02/2014
+{
+	Added messagebox to test save function for if incorrect number of words selected
+	Fixed bug where words selected wouldn't update on random
+	Fixed bug where word wouldn't save
+	Fixed bug where enter would add a carriage return to the description
+}
+
+17/02/2014
+{
+	Integrated cmbWords with NodeMouseClick
+	Added cmbWords_SelectedIndexChanged
+	Fixed bug on (student/test)Display where clicking off of one would raise an error
+	Implemented lblTroubleWords
+	Locked all splitContainers on teacher to prevent resize
+}
+
+19/02/2014
+{
+	Set max size on lblDesc
+	Added no test handling code to student
+	Added Text to Speech support
+	Fixed bug in getting of test for student
+	Ran code analysis, potential SQL injection in SQLiteDatabase, fixed bad formatting in student
+	Added Export HTML button
+	Implemented exporting html
+}
+
+20/02/2014
+{
+	Fixed lblDesc not updating when you click something on the lstResults
+	Fixed btnClear not updating lblSelected
+}
+
+25/02/2014
+{
+	Attempted to add async and await to the tts, but failed as the project is targeting 4.0
+	and the school laptops are VS 2010, so it's not worth the risk
+}
+
+27/02/2014
+{
+	Added a thread to the tts call, Speak is now a separate function
+	Added Password Change button on student management
+}
+
+28/02/2014
+{
+	Removed unused functions from SQLiteDatabase
+	Moved deleteTest to Teacher
+	Moved getSpellTests to Teacher
+	Removed SpellTest.cs
+	Moved to SHA-256
+	Removed unused usings from Password
+							   AccountControl
+							   formTestAdd
+							   Login
+							   Program
+							   SQLiteDatabase
+							   Student
+}
+
+04/03/2014
+{
+	Made export html do desc as well
+	Removed excess SQLiteDatabase constructions from teacher
+}
+
+06/03/2014
+{
+	Fixed the semicolon thing
+	Fixed a bug where the word drop down wouldn't clear
+	Fixed delete test bug where it wouldn't delete
+	Hopefully fixed the bug where IDs clash due to the assigning system
+}
+
+07/03/2014
+{
+	Added try/catch around call to AddStudent as it now throws something
+	All controls are named properly on: formTestAdd
+										Login
+										Student
+										Teacher
+	AccountControl is tidied and commented
+	Made search better with GLOB instead of LIKE, distinguishes between cases
+}
+
+11/03/2014
+{
+	Changed the ID generator for adding tests and students to take the highest ID and add 1 to it
+}
+
+09/03/2014
+{
+	Added the ability for the user to add words
+}
+
+14/03/2014
+{
+	formTestAdd is tidied and commented
+	formWordAdd is tidied and commented
+}
+
+18/03/2014
+{
+	Login is tidied and commented
+	Password is tidied and commented
+	SQLiteDatabase is tidied and commented
+}
+
+/* General Information */
+
+All debugging passwords are "password"
+
+User ID corresponds to position in database [Should probably change to reflect years/class]
+
+Week of spelling test is in format "DD/MM/YYYY" where DD is the Monday of the week
+
+ID of 0 is reserved to prevent a bug with login formats
+
+Format of words column in tests is "Word;Word;Word..."
+
+Official error message is defined by:
+MessageBox.Show("Something went wrong, please try again. If this problem persists, please contact your system administrator.",
+                        "Error",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Exclamation);
+
+Only 999 tests allowed, should be enough
+
+(dir -include *.cs -recurse | select-string .).Count - LOC count
